@@ -4,4 +4,4 @@ Equipo 2
 - Daniel Alfredo Segura Palacios
 - Cristian Gael Fernández Silva
 - Francisco Javier Gonzalez Encinas
--Jesus Eduardo Brambila Duarte :)
+- Jesus Eduardo Brambila Duarte :)
