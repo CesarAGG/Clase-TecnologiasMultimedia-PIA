@@ -1,5 +1,4 @@
-
-header .cabecera{
+header .cabecera {
     display: flex;
     height: 430px;
     width: 100%;
@@ -8,6 +7,7 @@ header .cabecera{
     flex-direction: column;
     text-align: center;
 }
+
 header {
     width: 100%;
     height: 600px;
@@ -21,37 +21,42 @@ header {
     background-attachment: fixed;
     position: relative;
 }
-nav{
+
+nav {
     text-align: right;
     padding: 30px 50px 0 0;
 }
 
-nav > a{
-    color:#fff;
+nav>a {
+    color: #fff;
     font-weight: 300;
     text-decoration: none;
     margin-right: 10px;
 }
 
-nav > a:hover{
+nav>a:hover {
     text-decoration: underline;
 }
-.wave{
+
+.wave {
     position: absolute;
     bottom: 0;
     width: 100%;
 }
-.cabecera h1{
+
+.cabecera h1 {
     font-size: 35px;
 }
 
-.cabecera h2{
+.cabecera h2 {
     font-size: 20px;
 }
-.portafolio{
+
+.portafolio {
     background: #f2f2f2;
 }
-.imagen-port{
+
+.imagen-port {
     width: 24%;
     margin-bottom: 10px;
     overflow: hidden;
@@ -59,24 +64,27 @@ nav > a:hover{
     cursor: pointer;
     box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
 }
-.galeria-port{
+
+.galeria-port {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.hover-galeria{
+
+.hover-galeria {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273,91%,27%, 0.7);
+    background: hsla(273, 91%, 27%, 0.7);
     transition: transform .5s;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
+
 .contenedor {
     padding: 60px 0;
     width: 90%;
@@ -84,6 +92,7 @@ nav > a:hover{
     margin: auto;
     overflow: hidden;
 }
+
 .titulo {
     color: #642a73;
     font-size: 30px;
