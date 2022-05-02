@@ -1,6 +1,6 @@
 header .cabecera {
     display: flex;
-    height: 430px;
+    height: 330px;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -10,7 +10,7 @@ header .cabecera {
 
 header {
     width: 100%;
-    height: 600px;
+    height: 500px;
     background: #bc4e9c;
     /* para antiguos ordenadores */
     background: -webkit-linear-gradient(to right, hsla(204, 95%, 50%, 0.459), hsla(285, 45%, 52%, 0.664)), url(imagenes/portada.jpg);
@@ -18,6 +18,7 @@ header {
     background: linear-gradient(to right, hsla(204, 95%, 50%, 0.459), hsla(285, 45%, 52%, 0.664)), url(imagenes/portada.jpg);
     /* genrico */
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     position: relative;
 }
@@ -86,7 +87,7 @@ nav>a:hover {
 }
 
 .contenedor {
-    padding: 60px 0;
+    padding: 20px 0;
     width: 90%;
     max-width: 1000px;
     margin: auto;
