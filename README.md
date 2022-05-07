@@ -7,3 +7,4 @@ Equipo 2
 - Cristian Gael Fernández Silva
 - Francisco Javier Gonzalez Encinas
 - Jesus Eduardo Brambila Duarte :)
+- Alicia Christyna Martínez Parra
