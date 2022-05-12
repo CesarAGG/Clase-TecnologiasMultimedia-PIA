@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         <title>Bienvenido a 'nombre de tienda'</title>
+        
     </head>
 
     <body>
@@ -17,39 +18,40 @@
         <div class="container-form sign-up">
             <div class="welcome-back">
                 <div class="message">
-                    <h2>Bienvenido a 'nombre de tienda'</h2>
+                    <h2>Bienvenido a Bisonte Style Kids</h2>
                     <p>¿Ya tiene una cuenta?, inicie sesión aquí</p>
                     <button class="sign-up-btn">Iniciar Sesión</button>
                 </div>
             </div>
-            <form action="" class="formulario">
+            <form action="" class="formulario" id="formUp">
                 <h2 class="create-account">Crear una cuenta</h2>
                 <input type="text" placeholder="Nombre Completo">
-                <input type="email" placeholder="Correo Electrónico">
-                <input type="text" placeholder="Nombre de Usuario">
-                <input type="password" placeholder="Contraseña">
-                <input type="password" placeholder="Confirmar Contraseña">
-                <input type="button" value="Registrarse">
+                <input type="text" placeholder="Nombre de Usuario" id="sign-up-name">
+                <input type="email" placeholder="Correo Electrónico" id="sign-up-email">
+                <input type="password" placeholder="Contraseña" id="sign-up-passw">
+                <input type="button" value="Registrarse" onclick="register()">
             </form>
         </div>
 
         <div class="container-form sign-in">
-            <form action="" class="formulario">
+            <form action="" class="formulario" id="formIn">
                 <h2 class="create-account">Iniciar Sesión</h2>
-                <input type="email" placeholder="Correo Electrónico">
-                <input type="password" placeholder="Contraseña">
-                <input id="btnIniciarSesion" type="button" value="Iniciar Sesión">
+                <input type="email" placeholder="Correo Electrónico" id="sign-in-email">
+                <input type="password" placeholder="Contraseña" id="sign-in-passw">
+                <input id="btnIniciarSesion" type="button" value="Iniciar Sesión" onclick="login()">
             </form>
             <div class="welcome-back">
                 <div class="message">
-                    <h2>Bienvenido de nuevo</h2>
+                    <h2>Bienvenido</h2>
                     <p>Si, aún no tienes una cuenta, registrese aquí</p>
                     <button class="sign-in-btn">Registrarse</button>
                 </div>
             </div>
         </div>
-
-        <script src="script.js"></script>
     </body>
-
+    
+    <!-- Insert this script at the bottom of the HTML, but before you use any Firebase services -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-auth.js"></script>
+    <script src="script.js"></script>
 </html>
