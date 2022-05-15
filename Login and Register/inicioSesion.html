@@ -5,11 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" href="estilos.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-        <title>Bienvenido a 'nombre de tienda'</title>
+        <title>Bienvenido</title>
         
     </head>
 
@@ -24,8 +22,9 @@
             </div>
             <form action="" class="formulario" id="formUp">
                 <h2 class="create-account">Crear una cuenta</h2>
-                <input type="text" placeholder="Nombre Completo">
-                <input type="text" placeholder="Nombre de Usuario" id="sign-up-name">
+                <h4 id="validar-registro"></h4>
+                <input type="text" placeholder="Nombre Completo" id="sign-up-name">
+                <input type="text" placeholder="Nombre de Usuario" id="sign-up-userName">
                 <input type="email" placeholder="Correo Electrónico" id="sign-up-email">
                 <input type="password" placeholder="Contraseña" id="sign-up-passw">
                 <input type="button" value="Registrarse" onclick="register()">
@@ -35,6 +34,7 @@
         <div class="container-form sign-in">
             <form action="" class="formulario" id="formIn">
                 <h2 class="create-account">Iniciar Sesión</h2>
+                <h4 id="validar-inicio"></h4>
                 <input type="email" placeholder="Correo Electrónico" id="sign-in-email">
                 <input type="password" placeholder="Contraseña" id="sign-in-passw">
                 <input id="btnIniciarSesion" type="button" value="Iniciar Sesión" onclick="login()">
