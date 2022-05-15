@@ -1,11 +1,6 @@
-header .cabecera {
-    display: flex;
-    height: 330px;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
+*{
+    padding: 0;
+    margin: 0;
 }
 
 header {
@@ -17,15 +12,34 @@ header {
     /*para crome y safari*/
     background: linear-gradient(to right, hsla(204, 95%, 50%, 0.459), hsla(285, 45%, 52%, 0.664)), url(imagenes/portada.jpg);
     /* genrico */
+    padding: 5px 0% 2% 0%;
     background-size: cover;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
     background-position: center;
     background-attachment: fixed;
     position: relative;
 }
 
+header .cabecera {
+    display: flex;
+    height: 330px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+
 nav {
+    margin-right: 5px;
     text-align: right;
     padding: 30px 50px 0 0;
+    font-size: 25px;
+
 }
 
 nav>a {
