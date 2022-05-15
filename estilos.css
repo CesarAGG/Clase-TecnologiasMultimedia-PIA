@@ -72,6 +72,9 @@ nav>a:hover {
 .portafolio {
     background: #e0f9f8;
 }
+.portaforio.video{
+    text-align: center;
+}
 
 .imagen-port {
     color: red;
