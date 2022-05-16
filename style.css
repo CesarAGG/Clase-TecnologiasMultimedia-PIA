@@ -203,7 +203,7 @@ body{
             font-size:  50px;
         }
 
-        .tituloh2::after,h2::before{
+        .tituloh2::after,.tituloh2::before{
             content: "";
             position: absolute;
             width: 120px;
