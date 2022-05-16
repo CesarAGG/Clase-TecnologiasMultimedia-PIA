@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body {
     height: 100 vh;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ body{
     color: #fff;
 }
 
-.container-form{
+.container-form {
     width: 90%;
     height: 90vh;
     display: flex;
@@ -25,13 +25,13 @@ body{
     transition: all 0.5s ease-out;
 }
 
-.welcome-back{
+.welcome-back {
     display: flex;
     align-items: center;
     text-align: center;
 }
 
-.message{
+.message {
     padding: 1rem;
     color: #222;
 }
@@ -55,12 +55,12 @@ body{
     color: blue;
 }
 
-.message button:hover{
+.message button:hover {
     background-color: #6464f8;
     color: #fff;
 }
 
-.formulario{
+.formulario {
     width: 400px;
     padding-top: 170px;
     margin: 2rem;
@@ -68,12 +68,12 @@ body{
     text-align: center;
 }
 
-.create-account{
+.create-account {
     padding: 2.7rem;
     font-size: 1.7rem;
 }
 
-.formulario input{
+.formulario input {
     width: 70%;
     display: block;
     margin: auto;
@@ -88,7 +88,7 @@ body{
     color: white;
 }
 
-.formulario input[type="button"]{
+.formulario input[type="button"] {
     width: 60%;
     margin: auto;
     border: solid thin white;
@@ -102,38 +102,35 @@ body{
     color: #222;
 }
 
-.sign-up{
+.sign-up {
     position: absolute;
     opacity: 0;
     visibility: hidden;
 }
 
-.sign-up.active{
+.sign-up.active {
     opacity: 1;
     visibility: visible;
 }
 
-.sign-in.active{
+.sign-in.active {
     opacity: 0;
     visibility: hidden;
 }
-<<<<<<< HEAD
 
-.sign-in-button{
+.sign-in-button {
     padding: 1rem;
 }
 
-=======
-.contenedor{
+.contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
 }
- 
-.centrado{
+
+.centrado {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
->>>>>>> 8087e58d1bb4f9799efb50d2cca52e1ebfaad996
