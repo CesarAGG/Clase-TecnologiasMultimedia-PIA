@@ -50,7 +50,7 @@ body{
     outline: none;
     cursor: pointer;
     font-size: .9rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     transition: all 0.3s ease-in;
     color: blue;
 }
@@ -116,4 +116,8 @@ body{
 .sign-in.active{
     opacity: 0;
     visibility: hidden;
+}
+
+.sign-in-button{
+    padding: 1rem;
 }
