@@ -218,6 +218,11 @@ body{
         .tituloh2::before{
             right:-140px;
         }
+    
+#texto{
+    margin-left: 15%;
+    margin-right: 15%;
+}
 
 #img1{
 margin-top: -20px;
