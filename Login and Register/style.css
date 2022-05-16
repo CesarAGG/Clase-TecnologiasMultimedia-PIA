@@ -117,8 +117,23 @@ body{
     opacity: 0;
     visibility: hidden;
 }
+<<<<<<< HEAD
 
 .sign-in-button{
     padding: 1rem;
 }
 
+=======
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+>>>>>>> 8087e58d1bb4f9799efb50d2cca52e1ebfaad996
