@@ -50,7 +50,7 @@ body{
     outline: none;
     cursor: pointer;
     font-size: .9rem;
-    margin-top: 2rem;
+    margin-top: 0rem;
     transition: all 0.3s ease-in;
     color: blue;
 }
@@ -117,6 +117,13 @@ body{
     opacity: 0;
     visibility: hidden;
 }
+<<<<<<< HEAD
+
+.sign-in-button{
+    padding: 1rem;
+}
+
+=======
 .contenedor{
     position: relative;
     display: inline-block;
@@ -129,3 +136,4 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+>>>>>>> 8087e58d1bb4f9799efb50d2cca52e1ebfaad996
